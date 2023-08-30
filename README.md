@@ -54,13 +54,19 @@ export class HelloComponent {
 
 ```typescript
 // React Props
-function ParentComponent() {
-  return <ChildComponent message="Hello from parent" />;
+function Hello(props) {
+  return <p>Hello, {props.name}!</p>;
 }
 
-function ChildComponent(props) {
-  return <div>{props.message}</div>;
+function App() {
+  return (
+    <>
+      <Hello name="Ko Ko" />
+    </>
+  );
 }
+
+export default App;
 ```
 
 ## Passing Non-String Data from Parent to Child
