@@ -142,15 +142,18 @@ export class HelloComponent {
 **React**
 
 ```typescript
-// React Non-String Props
-function Hello(props) {
-  return <p>You are {props.age} year(s) old.</p>;
+function Hello({ age }) {
+  return (
+    <p>
+      You are {age} year{age > 1 && <span>s</span>} old.
+    </p>
+  );
 }
 
 function App() {
   return (
     <>
-      <Hello age={17} />
+      <Hello age={1} />
     </>
   );
 }
