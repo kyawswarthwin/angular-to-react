@@ -2,6 +2,8 @@
 
 Angular Developer တွေ React ကို အချိန်တိုအတွင်း အလျှင်မြန်ဆုံးနဲ့ အလွယ်ကူဆုံး ကူးပြောင်းနိုင်ဖို့အတွက် ရည်ရွယ်ပီး ရေးသားထားခြင်း ဖြစ်ပါတယ်။
 
+## ပါဝင်သည့်အကြောင်းအရာများ
+
 [Scaffolding Project](#scaffolding-project)
 
 [Developer Tools](#developer-tools)
@@ -13,8 +15,6 @@ Angular Developer တွေ React ကို အချိန်တိုအတွ
 [Conditional Rendering](#conditional-rendering)
 
 [Rendering Lists](#rendering-lists)
-
-[Dynamic Styling](#dynamic-styling)
 
 [Dynamic Styling](#dynamic-styling)
 
