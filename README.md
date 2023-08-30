@@ -1,4 +1,3 @@
-
 ## Scaffolding Project
 
 #### Angular
@@ -47,5 +46,25 @@ function ParentComponent() {
 
 function ChildComponent(props) {
   return <div>{props.message}</div>;
+}
+```
+
+## Passing Non-String Data from Parent to Child
+#### Angular
+
+```html
+<child-component [age]="17"></child-component>
+```
+
+#### React
+
+```typescript
+// React Non-String Props
+function ParentComponent() {
+  return <ChildComponent age={17} />;
+}
+
+function ChildComponent(props) {
+  return <div>{props.age}</div>;
 }
 ```
