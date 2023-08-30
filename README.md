@@ -94,11 +94,17 @@ export class HelloComponent {
 
 ```typescript
 // React Non-String Props
-function ParentComponent() {
-  return <ChildComponent age={17} />;
+function Hello(props) {
+  return <p>You are {props.age} year(s) old.</p>;
 }
 
-function ChildComponent(props) {
-  return <div>{props.age}</div>;
+function App() {
+  return (
+    <>
+      <Hello age={17} />
+    </>
+  );
 }
+
+export default App;
 ```
