@@ -170,11 +170,7 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-hello',
-  template: `
-    <p [style]="{ backgroundColor: backgroundColor, color: color }">
-      Hello, World!
-    </p>
-  `,
+  template: `<p [style]="{ backgroundColor, color }">Hello, World!</p>`,
   standalone: true,
 })
 export class HelloComponent {
@@ -190,21 +186,18 @@ export class HelloComponent {
 **React**
 
 ```typescript
-function Hello({ age }) {
-  return (
-    <p>
-      You are {age} year{age > 1 && <span>s</span>} old.
-    </p>
-  );
+function Hello({ backgroundColor, color }) {
+  return <p style={{ backgroundColor, color }}>Hello, World!</p>;
 }
 
 function App() {
   return (
     <>
-      <Hello age={1} />
+      <Hello backgroundColor="red" color="white" />
     </>
   );
 }
 
 export default App;
+
 ```
