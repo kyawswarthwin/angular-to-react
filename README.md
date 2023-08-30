@@ -47,7 +47,7 @@ export class HelloComponent {
 ```
 
 ```html
-  <app-hello name="Ko Ko"></app-hello>
+<app-hello name="Ko Ko"></app-hello>
 ```
 
 **React**
@@ -73,8 +73,21 @@ export default App;
 
 **Angular**
 
+```typescript
+import { Component, Input } from '@angular/core';
+
+@Component({
+  selector: 'app-hello',
+  template: '<p>You are {{ age }} year(s) old.</p>',
+  standalone: true,
+})
+export class HelloComponent {
+  @Input() age?: number;
+}
+```
+
 ```html
-<child-component [age]="17"></child-component>
+<app-hello [age]="17"></app-hello>
 ```
 
 **React**
