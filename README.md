@@ -273,7 +273,8 @@ function App() {
 export default App;
 ```
 
-အပေါ်က Code က အလုပ်လုပ်ပေမယ့် Chrome DevTools ထဲ ဝင်ကြည့်ရင် Warning: Each child in a list should have a unique "key" prop. ဆိုပီး Error ပြနေပါလိမ့်မယ်။ အကြောင်းက React မှာ array item တစ်ခုစီတိုင်းအတွက် unique identifier တစ်ခုစီ လိုအပ်ပါတယ်။ အဲ့တာကို “key” prop နဲ့ သတ်မှတ်နိုင်ပါတယ်။ အများအားဖြင့် Database က id ကို သတ်မှတ်ကျပါတယ်။ မရှိရင် uuid generator တွေသုံးလို့ဖြစ်စေ၊ အောက်က ဥပမာထဲကလို index နဲ့ဖြစ်စေ ဖြေရှင်းနိုင်ပါတယ်။
+#### The Key Prop
+အပေါ်က Code က အလုပ်လုပ်ပေမယ့် Chrome DevTools ထဲ ဝင်ကြည့်ရင် `Warning: Each child in a list should have a unique "key" prop.` ဆိုပီး Error ပြနေပါလိမ့်မယ်။ အကြောင်းက React မှာ array item တစ်ခုစီတိုင်းအတွက် unique identifier တစ်ခုစီ လိုအပ်ပါတယ်။ အဲ့တာကို “key” prop နဲ့ သတ်မှတ်နိုင်ပါတယ်။ အများအားဖြင့် Database က id ကို သတ်မှတ်ကျပါတယ်။ မရှိရင် uuid generator တွေသုံးလို့ဖြစ်စေ၊ အောက်က ဥပမာထဲကလို index နဲ့ဖြစ်စေ ဖြေရှင်းနိုင်ပါတယ်။
 
 ```typescript
 function ContactList({ list }) {
