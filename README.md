@@ -14,6 +14,12 @@ ng new my-angular-app
 npm create vite@latest my-react-project -- --template react-ts
 ```
 
+## Developer Tools
+
+[Angular](https://chrome.google.com/webstore/detail/angular-devtools/ienfalfjdbdpebioblfackkekamfmbnh)
+
+[React](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+
 ## Fragment
 
 **Angular**
