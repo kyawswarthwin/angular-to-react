@@ -201,3 +201,51 @@ function App() {
 export default App;
 
 ```
+
+## Rendering Lists
+
+**Angular**
+
+```typescript
+import { NgFor } from '@angular/common';
+import { Component, Input } from '@angular/core';
+
+@Component({
+  selector: 'app-contact-list',
+  template: `
+    <ul>
+      <li *ngFor="let name of list">{{ name }}</li>
+    </ul>
+  `,
+  standalone: true,
+  imports: [NgFor],
+})
+export class ContactListComponent {
+  @Input() list?: string[];
+}
+```
+
+```html
+<app-contact-list
+  [list]="['Ko Ko', 'Nyi Nyi', 'Kyaw Gyi', 'Mya Mya']"
+></app-contact-list>
+```
+
+**React**
+
+```typescript
+function Hello({ backgroundColor, color }) {
+  return <p style={{ backgroundColor, color }}>Hello, World!</p>;
+}
+
+function App() {
+  return (
+    <>
+      <Hello backgroundColor="red" color="white" />
+    </>
+  );
+}
+
+export default App;
+
+```
