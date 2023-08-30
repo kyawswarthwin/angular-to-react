@@ -18,6 +18,8 @@ Angular Developer တွေ React ကို အချိန်တိုအတွ
 
 [Rendering Lists](#rendering-lists)
 
+[Handling Events](#handling-events)
+
 ## Scaffolding Project
 
 **Angular**
