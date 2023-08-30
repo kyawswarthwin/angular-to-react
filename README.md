@@ -319,10 +319,6 @@ export class AppComponent {
 }
 ```
 
-```html
-<app-hello backgroundColor="red" color="white"></app-hello>
-```
-
 **React**
 
 ```typescript
