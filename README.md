@@ -199,7 +199,6 @@ function App() {
 }
 
 export default App;
-
 ```
 
 ## Rendering Lists
@@ -234,18 +233,23 @@ export class ContactListComponent {
 **React**
 
 ```typescript
-function Hello({ backgroundColor, color }) {
-  return <p style={{ backgroundColor, color }}>Hello, World!</p>;
+function ContactList({ list }) {
+  return (
+    <ul>
+      {list.map((name) => (
+        <li>{name}</li>
+      ))}
+    </ul>
+  );
 }
 
 function App() {
   return (
     <>
-      <Hello backgroundColor="red" color="white" />
+      <ContactList list={['Ko Ko', 'Nyi Nyi', 'Kyaw Gyi', 'Mya Mya']} />
     </>
   );
 }
 
 export default App;
-
 ```
