@@ -1,13 +1,21 @@
 # Angular to React
 
 Angular Developer တွေ React ကို အချိန်တိုအတွင်း အလျှင်မြန်ဆုံးနဲ့ အလွယ်ကူဆုံး ကူးပြောင်းနိုင်ဖို့အတွက် ရည်ရွယ်ပီး ရေးသားထားခြင်း ဖြစ်ပါတယ်။
+
 [Scaffolding Project](#scaffolding-project)
+
 [Developer Tools](#developer-tools)
+
 [Passing Data from Parent to Child](#passing-data-from-parent-to-child)
+
 [Passing Non-String Data from Parent to Child](#passing-non-string-data-from-parent-to-child)
+
 [Conditional Rendering](#conditional-rendering)
+
 [Rendering Lists](#rendering-lists)
+
 [Dynamic Styling](#dynamic-styling)
+
 [Dynamic Styling](#dynamic-styling)
 
 ## Scaffolding Project
