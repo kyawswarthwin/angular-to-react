@@ -6,7 +6,7 @@ Angular Developer တွေ React ကို အချိန်တိုအတွ
 
 [Scaffolding Project](#scaffolding-project)
 
-[DevTools](#developer-tools)
+[DevTools](#devtools)
 
 [Passing Data from Parent to Child](#passing-data-from-parent-to-child)
 
