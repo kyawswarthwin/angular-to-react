@@ -298,3 +298,43 @@ function App() {
 
 export default App;
 ```
+
+## Handling Events
+
+**Angular**
+
+```typescript
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  template: '<button (click)="handleClick()">Click me</button>',
+})
+export class AppComponent {
+  handleClick() {
+    alert('You clicked me!');
+  }
+}
+```
+
+```html
+<app-hello backgroundColor="red" color="white"></app-hello>
+```
+
+**React**
+
+```typescript
+function App() {
+  function handleClick() {
+    alert('You clicked me!');
+  }
+
+  return (
+    <>
+      <button onClick={handleClick}>Click me</button>
+    </>
+  );
+}
+
+export default App;
+```
