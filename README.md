@@ -161,46 +161,6 @@ function App() {
 export default App;
 ```
 
-## Dynamic Styling
-
-**Angular**
-
-```typescript
-import { Component, Input } from '@angular/core';
-
-@Component({
-  selector: 'app-hello',
-  template: `<p [style]="{ backgroundColor, color }">Hello, World!</p>`,
-  standalone: true,
-})
-export class HelloComponent {
-  @Input() backgroundColor?: string;
-  @Input() color?: string;
-}
-```
-
-```html
-<app-hello backgroundColor="red" color="white"></app-hello>
-```
-
-**React**
-
-```typescript
-function Hello({ backgroundColor, color }) {
-  return <p style={{ backgroundColor, color }}>Hello, World!</p>;
-}
-
-function App() {
-  return (
-    <>
-      <Hello backgroundColor="red" color="white" />
-    </>
-  );
-}
-
-export default App;
-```
-
 ## Rendering Lists
 
 **Angular**
@@ -247,6 +207,46 @@ function App() {
   return (
     <>
       <ContactList list={['Ko Ko', 'Nyi Nyi', 'Kyaw Gyi', 'Mya Mya']} />
+    </>
+  );
+}
+
+export default App;
+```
+
+## Dynamic Styling
+
+**Angular**
+
+```typescript
+import { Component, Input } from '@angular/core';
+
+@Component({
+  selector: 'app-hello',
+  template: `<p [style]="{ backgroundColor, color }">Hello, World!</p>`,
+  standalone: true,
+})
+export class HelloComponent {
+  @Input() backgroundColor?: string;
+  @Input() color?: string;
+}
+```
+
+```html
+<app-hello backgroundColor="red" color="white"></app-hello>
+```
+
+**React**
+
+```typescript
+function Hello({ backgroundColor, color }) {
+  return <p style={{ backgroundColor, color }}>Hello, World!</p>;
+}
+
+function App() {
+  return (
+    <>
+      <Hello backgroundColor="red" color="white" />
     </>
   );
 }
