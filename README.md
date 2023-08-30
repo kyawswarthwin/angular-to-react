@@ -6,7 +6,7 @@ Angular Developer တွေ React ကို အချိန်တိုအတွ
 
 [Scaffolding Project](#scaffolding-project)
 
-[Developer Tools](#developer-tools)
+[DevTools](#developer-tools)
 
 [Passing Data from Parent to Child](#passing-data-from-parent-to-child)
 
@@ -33,7 +33,7 @@ ng new my-angular-app
 npm create vite@latest my-react-project -- --template react-ts
 ```
 
-## Developer Tools
+## DevTools
 
 [Angular](https://chrome.google.com/webstore/detail/angular-devtools/ienfalfjdbdpebioblfackkekamfmbnh)
 
