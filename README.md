@@ -1,13 +1,13 @@
 ## Scaffolding Project
 
-#### Angular
+**Angular**
 
 ```sh
 npm install -g @angular/cli
 ng new my-first-project
 ```
 
-#### React
+**React**
 
 ```sh
 npm create vite@latest my-first-project -- --template react
@@ -15,14 +15,14 @@ npm create vite@latest my-first-project -- --template react
 
 ## Fragment
 
-#### Angular
+**Angular**
 
 ```html
 <ng-container>
 </ng-container>
 ```
 
-#### React
+**React**
 
 ```html
 <>
@@ -30,13 +30,14 @@ npm create vite@latest my-first-project -- --template react
 ```
 
 ## Passing Data from Parent to Child
-#### Angular
+
+**Angular**
 
 ```typescript
 @Input()
 ```
 
-#### React
+**React**
 
 ```typescript
 // React Props
@@ -50,13 +51,14 @@ function ChildComponent(props) {
 ```
 
 ## Passing Non-String Data from Parent to Child
-#### Angular
+
+**Angular**
 
 ```html
 <child-component [age]="17"></child-component>
 ```
 
-#### React
+**React**
 
 ```typescript
 // React Non-String Props
