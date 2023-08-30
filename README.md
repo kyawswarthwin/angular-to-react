@@ -115,3 +115,45 @@ function App() {
 
 export default App;
 ```
+
+## Conditional Rendering
+
+**Angular**
+
+```typescript
+import { NgIf } from '@angular/common';
+import { Component, Input } from '@angular/core';
+
+@Component({
+  selector: 'app-hello',
+  template: '<p>You are {{ age }} year<span *ngIf="age! > 1">s</span> old.</p>',
+  standalone: true,
+  imports: [NgIf],
+})
+export class HelloComponent {
+  @Input() age?: number;
+}
+```
+
+```html
+<app-hello [age]="1"></app-hello>
+```
+
+**React**
+
+```typescript
+// React Non-String Props
+function Hello(props) {
+  return <p>You are {props.age} year(s) old.</p>;
+}
+
+function App() {
+  return (
+    <>
+      <Hello age={17} />
+    </>
+  );
+}
+
+export default App;
+```
