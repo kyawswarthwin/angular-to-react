@@ -160,3 +160,51 @@ function App() {
 
 export default App;
 ```
+
+## Dynamic Styling
+
+**Angular**
+
+```typescript
+import { Component, Input } from '@angular/core';
+
+@Component({
+  selector: 'app-hello',
+  template: `
+    <p [style]="{ backgroundColor: backgroundColor, color: color }">
+      Hello, World!
+    </p>
+  `,
+  standalone: true,
+})
+export class HelloComponent {
+  @Input() backgroundColor?: string;
+  @Input() color?: string;
+}
+```
+
+```html
+<app-hello backgroundColor="red" color="white"></app-hello>
+```
+
+**React**
+
+```typescript
+function Hello({ age }) {
+  return (
+    <p>
+      You are {age} year{age > 1 && <span>s</span>} old.
+    </p>
+  );
+}
+
+function App() {
+  return (
+    <>
+      <Hello age={1} />
+    </>
+  );
+}
+
+export default App;
+```
