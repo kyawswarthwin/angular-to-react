@@ -18,15 +18,15 @@ npm create vite@latest my-react-project -- --template react-ts
 **Angular**
 
 ```html
-  <ng-container>
-  </ng-container>
+<ng-container>
+</ng-container>
 ```
 
 **React**
 
 ```html
-  <>
-  </>
+<>
+</>
 ```
 
 ## Passing Data from Parent to Child
