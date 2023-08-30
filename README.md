@@ -12,11 +12,11 @@ Angular Developer တွေ React ကို အချိန်တိုအတွ
 
 [Passing Non-String Data from Parent to Child](#passing-non-string-data-from-parent-to-child)
 
+[Dynamic Styling](#dynamic-styling)
+
 [Conditional Rendering](#conditional-rendering)
 
 [Rendering Lists](#rendering-lists)
-
-[Dynamic Styling](#dynamic-styling)
 
 ## Scaffolding Project
 
@@ -135,6 +135,46 @@ function App() {
 export default App;
 ```
 
+## Dynamic Styling
+
+**Angular**
+
+```typescript
+import { Component, Input } from '@angular/core';
+
+@Component({
+  selector: 'app-hello',
+  template: `<p [style]="{ backgroundColor, color }">Hello, World!</p>`,
+  standalone: true,
+})
+export class HelloComponent {
+  @Input() backgroundColor?: string;
+  @Input() color?: string;
+}
+```
+
+```html
+<app-hello backgroundColor="red" color="white"></app-hello>
+```
+
+**React**
+
+```typescript
+function Hello({ backgroundColor, color }) {
+  return <p style={{ backgroundColor, color }}>Hello, World!</p>;
+}
+
+function App() {
+  return (
+    <>
+      <Hello backgroundColor="red" color="white" />
+    </>
+  );
+}
+
+export default App;
+```
+
 ## Conditional Rendering
 
 **Angular**
@@ -226,46 +266,6 @@ function App() {
   return (
     <>
       <ContactList list={['Ko Ko', 'Nyi Nyi', 'Kyaw Gyi', 'Mya Mya']} />
-    </>
-  );
-}
-
-export default App;
-```
-
-## Dynamic Styling
-
-**Angular**
-
-```typescript
-import { Component, Input } from '@angular/core';
-
-@Component({
-  selector: 'app-hello',
-  template: `<p [style]="{ backgroundColor, color }">Hello, World!</p>`,
-  standalone: true,
-})
-export class HelloComponent {
-  @Input() backgroundColor?: string;
-  @Input() color?: string;
-}
-```
-
-```html
-<app-hello backgroundColor="red" color="white"></app-hello>
-```
-
-**React**
-
-```typescript
-function Hello({ backgroundColor, color }) {
-  return <p style={{ backgroundColor, color }}>Hello, World!</p>;
-}
-
-function App() {
-  return (
-    <>
-      <Hello backgroundColor="red" color="white" />
     </>
   );
 }
