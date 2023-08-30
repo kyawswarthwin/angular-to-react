@@ -4,13 +4,13 @@
 
 ```sh
 npm install -g @angular/cli
-ng new my-first-project
+ng new my-angular-app
 ```
 
 **React**
 
 ```sh
-npm create vite@latest my-first-project -- --template react
+npm create vite@latest my-react-project -- --template react-ts
 ```
 
 ## Fragment
@@ -18,15 +18,15 @@ npm create vite@latest my-first-project -- --template react
 **Angular**
 
 ```html
-<ng-container>
-</ng-container>
+  <ng-container>
+  </ng-container>
 ```
 
 **React**
 
 ```html
-<>
-</>
+  <>
+  </>
 ```
 
 ## Passing Data from Parent to Child
@@ -34,7 +34,20 @@ npm create vite@latest my-first-project -- --template react
 **Angular**
 
 ```typescript
-@Input()
+import { Component, Input } from '@angular/core';
+
+@Component({
+  selector: 'app-hello',
+  template: '<p>Hello, {{ name }}!</p>',
+  standalone: true,
+})
+export class HelloComponent {
+  @Input() name?: string;
+}
+```
+
+```html
+  <app-hello name="Ko Ko"></app-hello>
 ```
 
 **React**
