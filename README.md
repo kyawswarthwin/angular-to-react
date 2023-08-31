@@ -414,7 +414,7 @@ Angular မှာ Reactive forms နဲ့ Template-driven forms ဆိုပီ
 
 **React**
 
-React မှာတော့ Angular လို built-in form validation စနစ် မပါဝင်ပါဘူး။ Don't reinvent the wheel ဆိုတဲ့အတိုင်း ကိုယ်တိုင်ရေးမယ့်အစား 3rd party librarie တွေကို အသုံးကြပါတယ်။ အဲ့ဒီ့ထဲမှာ React Hook Form နဲ့ Formik ကအသုံးများပါတယ်။
+React မှာတော့ Angular လို built-in form validation စနစ် မပါဝင်ပါဘူး။ Don't reinvent the wheel ဆိုတဲ့အတိုင်း ကိုယ်တိုင်ရေးမယ့်အစား 3rd party librarie တွေကို အသုံးပြုကြပါတယ်။ အဲ့ဒီ့ထဲမှာ React Hook Form နဲ့ Formik ကအသုံးများပါတယ်။
 
 [React Hook Form](https://www.react-hook-form.com/)
 
