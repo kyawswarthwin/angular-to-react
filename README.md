@@ -336,3 +336,41 @@ function App() {
 
 export default App;
 ```
+
+## State Management
+
+**Angular**
+
+```typescript
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  template: `
+    <button (click)="count = count + 1">count is {{ count }}</button>
+  `,
+})
+export class AppComponent {
+  count: number = 0;
+}
+```
+
+**React**
+
+```typescript
+import { useState } from 'react';
+
+function App() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <>
+      <button onClick={() => setCount((count) => count + 1)}>
+        count is {count}
+      </button>
+    </>
+  );
+}
+
+export default App;
+```
