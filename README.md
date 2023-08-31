@@ -285,7 +285,7 @@ function ContactList({ list }) {
   return (
     <ul>
       {list.map((name, index) => (
-        // Key Prop
+        // React Key Prop
         <li key={index}>{name}</li>
       ))}
     </ul>
@@ -396,3 +396,7 @@ function App() {
 
 export default App;
 ```
+
+#### Updating Arrays in State
+JavaScript မှာ Array တွေက Mutable ဖြစ်တယ်။ Angular Component တွေမှာ Mutable State ရှိနေပီးသား ဖြစ်တဲ့အတွက် Mutate ဖြစ်လို့ရတယ်။ React မှာတော့ Array တွေကို Add, Remove, Replace နဲ့ Sort လုပ်တဲ့အခါ Mutate ဖြစ်စေမယ့်အရာတွေကို ရှောင်ရှားဖို့လိုတယ်။
+[အသေးစိတ်လေ့လာရန်](https://react.dev/learn/updating-arrays-in-state#write-concise-update-logic-with-immer)
