@@ -22,6 +22,8 @@ Angular Developer တွေ React ကို အချိန်တိုအတွ
 
 [State Management](#state-management)
 
+[Forms](#forms)
+
 ## Scaffolding Project
 
 **Angular**
@@ -401,3 +403,19 @@ export default App;
 JavaScript မှာ Array တွေက Mutable ဖြစ်တယ်။ Angular Component တွေမှာ Mutable State ရှိနေပီးသား ဖြစ်တဲ့အတွက် Mutate ဖြစ်လို့ရတယ်။ React မှာတော့ Array တွေကို Add, Remove, Replace နဲ့ Sort လုပ်တဲ့အခါ Mutate ဖြစ်စေမယ့်အရာတွေကို ရှောင်ရှားဖို့လိုတယ်။
 
 [အသေးစိတ်လေ့လာရန်](https://react.dev/learn/updating-arrays-in-state)
+
+## Forms
+
+**Angular**
+
+Angular မှာ Reactive forms နဲ့ Template-driven forms ဆိုပီး ရေးပုံရေးနည်း ၂ နည်းရှိပါတယ်။
+
+[အသေးစိတ်လေ့လာရန်](https://angular.io/guide/forms-overview)
+
+**React**
+
+React မှာတော့ Angular လို built-in form validation စနစ် မပါဝင်ပါဘူး။ Don't reinvent the wheel ဆိုတဲ့အတိုင်း ကိုယ်တိုင်ရေးမယ့်အစား 3rd party librarie တွေကို အသုံးကြပါတယ်။ အဲ့ဒီ့ထဲမှာ React Hook Form နဲ့ Formik ကအသုံးများပါတယ်။
+
+[React Hook Form](https://www.react-hook-form.com/)
+
+[Formik](https://formik.org/)
