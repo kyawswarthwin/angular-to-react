@@ -343,7 +343,7 @@ export default App;
 
 **Angular**
 
-Angular Signals မတိုင်ခင်က Angular မှာ State Management အတွက် zone.js ကိုသုံးပါတယ်။ Angular Component တွေမှာ Mutable State ရှိနေပီးသားပါ။ အဲ့တော့ Angular မှာ React လို setState မလိုအပ်ခဲ့ဘူး။ Solid.js ကစခဲ့တဲ့ Signals ဟာ Angular 16 မှာ ပါဝင်လာပီဖြစ်ပါတယ်။ Signals သုံးတဲ့ တစ်ခြား Framework တစ်ခုလဲရှိပါသေတယ်။ အဲ့တာက Qwik ပါ။ Angular ကို ထွင်တဲ့အဖွဲ့ထဲက Misko Hevery ကပဲ ထပ်ထွင်ထားတာပါ။
+Angular Signals မတိုင်ခင်က Angular မှာ State Management အတွက် zone.js ကိုသုံးပါတယ်။ Angular Component တွေမှာ Mutable State ရှိနေပီးသားပါ။ အဲ့တော့ Angular မှာ React လို setState မလိုအပ်ခဲ့ဘူး။ Solid.js ကစခဲ့တဲ့ Signals ဟာ Angular 16 မှာ ပါဝင်လာပီဖြစ်ပါတယ်။ Signals သုံးတဲ့ တစ်ခြား Framework တစ်ခုလဲရှိပါသေးတယ်။ အဲ့တာက Qwik ပါ။ Angular ကို ထွင်တဲ့အဖွဲ့ထဲက Misko Hevery ကပဲ ထပ်ထွင်ထားတာပါ။
 
 ```typescript
 import { Component } from '@angular/core';
