@@ -343,6 +343,8 @@ export default App;
 
 **Angular**
 
+Angular Signals မတိုင်ခင်က Angular မှာ State Management အတွက် zone.js ကိုသုံးပါတယ်။ Angular Component တွေမှာ Mutable State ရှိနေပီးသားပါ။ အဲ့တော့ Angular မှာ React လို setState မလိုအပ်ခဲ့ဘူး။ Solid.js ကစခဲ့တဲ့ Signals ဟာ Angular 16 မှာ ပါဝင်လာပီဖြစ်ပါတယ်။ Signals သုံးတဲ့ တစ်ခြား Framework တစ်ခုလဲရှိပါသေတယ်။ အဲ့တာက Qwik ပါ။ Angular ကို ထွင်တဲ့အဖွဲ့ထဲက Misko Hevery ကပဲ ထပ်ထွင်ထားတာပါ။
+
 ```typescript
 import { Component } from '@angular/core';
 
@@ -354,6 +356,24 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   count: number = 0;
+}
+```
+
+**Angular Signals**
+
+```typescript
+import { Component, signal } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  template: `<button (click)="handleClick()">count is {{ count() }}</button>`,
+})
+export class AppComponent {
+  count = signal(0);
+
+  handleClick() {
+    this.count.update((value) => value + 1);
+  }
 }
 ```
 
