@@ -28,6 +28,8 @@ Angular Developer တွေ React ကို အချိန်တိုအတွ
 
 [Routing](#routing)
 
+[Fetch Data from an API](#fetch-data-from-an-api)
+
 ## Scaffolding Project
 
 **Angular**
