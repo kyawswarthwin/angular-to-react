@@ -103,6 +103,8 @@ function App() {
 export default App;
 ```
 
+**ဒီနေရာမှာ တစ်ခုသိထားရမှာက React ရဲ့ Event Props ဟာ Angular ရဲ့ @Output() နဲ့ အတူတူပင်ဖြစ်သည်။**
+
 ## Passing Non-String Data from Parent to Child
 
 **Angular**
