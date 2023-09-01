@@ -500,3 +500,20 @@ React မှာတော့ Angular လို built-in HttpClient စနစ် �
 [TanStack Query](https://tanstack.com/query/latest)
 
 [SWR](https://swr.vercel.app/)
+
+## Element Reference
+
+**Angular**
+
+```html
+<input type="text" name="username" #username />
+<input type="password" name="password" #password />
+```
+
+Angular မှာ Element Reference တွေကို # နဲ့ကြေညာတယ်။
+
+**React**
+
+React မှာတော့ useRef Hook ကိုသုံးတယ်။
+
+[အသေးစိတ်လေ့လာရန်](https://react.dev/reference/react/useRef)
