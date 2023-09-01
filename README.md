@@ -428,6 +428,6 @@ React မှာတော့ Angular လို built-in form validation စနစ
 
 ngOnInit, ngOnChanges, ngOnDestroy တို့အကြောင်းကို အောက်ပါ Link မှာ အသေးစိတ် ဖတ်ပါ။
 
-[အသေးစိတ်လေ့လာရန်](https://angular.io/guide/forms-overview)
+[အသေးစိတ်လေ့လာရန်](https://angular.io/guide/lifecycle-hooks)
 
 **React**
