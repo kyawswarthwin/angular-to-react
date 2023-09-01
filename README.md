@@ -419,3 +419,13 @@ React မှာတော့ Angular လို built-in form validation စနစ
 [React Hook Form](https://www.react-hook-form.com/)
 
 [Formik](https://formik.org/)
+
+## Lifecycle Hooks
+
+**Angular**
+
+ngOnInit, ngOnChanges, ngOnDestroy တို့အကြောင်းကို အောက်ပါ Link မှာ အသေးစိတ် ဖတ်ပါ။
+
+[အသေးစိတ်လေ့လာရန်](https://angular.io/guide/forms-overview)
+
+**React**
