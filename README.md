@@ -524,7 +524,7 @@ React မှာတော့ useRef Hook ကိုသုံးတယ်။
 
 ## Content Projection & Dependency Injection
 
-ဒီအပိုင်းက အတော်လေ့လာရမယ့် အပိုင်း Angular ကော React ကောမှာ နက်နဲတယ်။ အခြေခံအားဖြင့် Content Projection ကို Angular မှာ <ng-content></ng-content> နဲ့ရေးပီး React မှာ props.children နဲ့ရေးတယ်။ Angular ရဲ့ Dependency Injection ဟာ React ရဲ့ Context API နဲ့ သဘောတရားခြင်း အတူတူပဲဖြစ်တယ်။
+ဒီအပိုင်းက အတော်လေ့လာရမယ့် အပိုင်း Angular ကော React ကောမှာ နက်နဲတယ်။ အခြေခံအားဖြင့် Content Projection ကို Angular မှာ `<ng-content></ng-content>` နဲ့ရေးပီး React မှာ `props.children` နဲ့ရေးတယ်။ Angular ရဲ့ Dependency Injection ဟာ React ရဲ့ Context API နဲ့ သဘောတရားခြင်း အတူတူပဲဖြစ်တယ်။
 
 **Angular**
 
