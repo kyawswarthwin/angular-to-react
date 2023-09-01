@@ -30,6 +30,8 @@ Angular Developer တွေ React ကို အချိန်တိုအတွ
 
 [Fetch Data from an API](#fetch-data-from-an-api)
 
+[Element Reference](#element-reference)
+
 ## Scaffolding Project
 
 **Angular**
