@@ -534,4 +534,4 @@ React မှာတော့ useRef Hook ကိုသုံးတယ်။
 
 **React**
 
-[အသေးစိတ်လေ့လာရန်](https://react.dev/learn/passing-data-deeply-with-context)
+[Context API](https://react.dev/learn/passing-data-deeply-with-context)
