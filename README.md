@@ -26,6 +26,8 @@ Angular Developer တွေ React ကို အချိန်တိုအတွ
 
 [Lifecycle Hooks](#lifecycle-hooks)
 
+[Routing](#routing)
+
 ## Scaffolding Project
 
 **Angular**
@@ -462,3 +464,17 @@ function App() {
 
 export default App;
 ```
+
+## Routing
+
+**Angular**
+
+Angular မှာ Routing က built-in ပါပီးသားပါ။
+
+[အသေးစိတ်လေ့လာရန်](https://angular.io/guide/routing-overview)
+
+**React**
+
+React မှာတော့ Angular လို built-in routing စနစ် မပါဝင်ပါဘူး။ Don't reinvent the wheel ဆိုတဲ့အတိုင်း ကိုယ်တိုင်ရေးမယ့်အစား 3rd party librarie တွေကို အသုံးပြုကြပါတယ်။ အဲ့ဒီ့ထဲမှာ React Router ကိုအသုံးများပါတယ်။
+
+[React Router](https://reactrouter.com/en/main)
