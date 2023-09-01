@@ -32,6 +32,8 @@ Angular Developer တွေ React ကို အချိန်တိုအတွ
 
 [Element Reference](#element-reference)
 
+[Content Projection & Dependency Injection](#content-projection--dependency-injection)
+
 ## Scaffolding Project
 
 **Angular**
