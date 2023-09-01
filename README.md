@@ -494,6 +494,9 @@ Angular မှာ HttpClient က built-in ပါပီးသားပါ။
 React မှာတော့ Angular လို built-in HttpClient စနစ် မပါဝင်ပါဘူး။ Browser built-in ပါတဲ့ Fetch API ဒါမှမဟုတ် 3rd party librariy တွေဖြစ်တဲ့ Axios တို့ TanStack Query တို့ SWR တို့ကို အသုံးများပါတယ်။
 
 [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+
 [Axios](https://axios-http.com/)
+
 [TanStack Query](https://tanstack.com/query/latest)
+
 [SWR](https://swr.vercel.app/)
