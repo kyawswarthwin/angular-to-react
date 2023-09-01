@@ -24,6 +24,8 @@ Angular Developer တွေ React ကို အချိန်တိုအတွ
 
 [Forms](#forms)
 
+[Lifecycle Hooks](#lifecycle-hooks)
+
 ## Scaffolding Project
 
 **Angular**
