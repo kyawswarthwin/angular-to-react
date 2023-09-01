@@ -431,3 +431,32 @@ ngOnInit, ngOnChanges, ngOnDestroy တို့အကြောင်းကို
 [အသေးစိတ်လေ့လာရန်](https://angular.io/guide/lifecycle-hooks)
 
 **React**
+
+useEffect Hook ဟာ React ရဲ့ Lifecycle Hooks Method ပါပဲ။
+
+```typescript
+import { useEffect, useState } from 'react';
+
+function App() {
+  const [count, setCount] = useState(0);
+
+  // ngOnInit ကဲ့သို့
+  useEffect(() => console.log('mount'), []);
+
+  // ngOnChanges ကဲ့သို့
+  useEffect(() => console.log('count update'), [count]);
+
+  // ngOnDestroy ကဲ့သို့
+  useEffect(() => () => console.log('unmount'), []);
+
+  return (
+    <>
+      <button onClick={() => setCount((count) => count + 1)}>
+        count is {count}
+      </button>
+    </>
+  );
+}
+
+export default App;
+```
