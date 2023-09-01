@@ -420,7 +420,7 @@ Angular မှာ Reactive forms နဲ့ Template-driven forms ဆိုပီ
 
 **React**
 
-React မှာတော့ Angular လို built-in form validation စနစ် မပါဝင်ပါဘူး။ Don't reinvent the wheel ဆိုတဲ့အတိုင်း ကိုယ်တိုင်ရေးမယ့်အစား 3rd party librarie တွေကို အသုံးပြုကြပါတယ်။ အဲ့ဒီ့ထဲမှာ React Hook Form နဲ့ Formik ကအသုံးများပါတယ်။
+React မှာတော့ Angular လို built-in form validation စနစ် မပါဝင်ပါဘူး။ Don't reinvent the wheel ဆိုတဲ့အတိုင်း ကိုယ်တိုင်ရေးမယ့်အစား 3rd party librariy တွေကို အသုံးပြုကြပါတယ်။ အဲ့ဒီ့ထဲမှာ React Hook Form နဲ့ Formik ကအသုံးများပါတယ်။
 
 [React Hook Form](https://www.react-hook-form.com/)
 
@@ -475,6 +475,23 @@ Angular မှာ Routing က built-in ပါပီးသားပါ။
 
 **React**
 
-React မှာတော့ Angular လို built-in routing စနစ် မပါဝင်ပါဘူး။ Don't reinvent the wheel ဆိုတဲ့အတိုင်း ကိုယ်တိုင်ရေးမယ့်အစား 3rd party librarie တွေကို အသုံးပြုကြပါတယ်။ အဲ့ဒီ့ထဲမှာ React Router ကိုအသုံးများပါတယ်။
+React မှာတော့ Angular လို built-in routing စနစ် မပါဝင်ပါဘူး။ Don't reinvent the wheel ဆိုတဲ့အတိုင်း ကိုယ်တိုင်ရေးမယ့်အစား 3rd party librariy တွေကို အသုံးပြုကြပါတယ်။ အဲ့ဒီ့ထဲမှာ React Router ကိုအသုံးများပါတယ်။
 
 [React Router](https://reactrouter.com/en/main)
+
+## Fetch Data from an API
+
+**Angular**
+
+Angular မှာ HttpClient က built-in ပါပီးသားပါ။
+
+[အသေးစိတ်လေ့လာရန်](https://angular.io/guide/understanding-communicating-with-http)
+
+**React**
+
+React မှာတော့ Angular လို built-in HttpClient စနစ် မပါဝင်ပါဘူး။ Browser built-in ပါတဲ့ Fetch API ဒါမှမဟုတ် 3rd party librariy တွေဖြစ်တဲ့ Axios တို့ TanStack Query တို့ SWR တို့ကို အသုံးများပါတယ်။
+
+[Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+[Axios](https://axios-http.com/)
+[TanStack Query](https://tanstack.com/query/latest)
+[SWR](https://swr.vercel.app/)
