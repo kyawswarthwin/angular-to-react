@@ -529,6 +529,7 @@ React မှာတော့ useRef Hook ကိုသုံးတယ်။
 **Angular**
 
 [Content Projection](https://angular.io/guide/content-projection)
+
 [Dependency Injection](https://angular.io/guide/dependency-injection)
 
 **React**
