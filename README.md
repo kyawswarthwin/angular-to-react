@@ -519,3 +519,16 @@ Angular မှာ Element Reference တွေကို # နဲ့ကြေည�
 React မှာတော့ useRef Hook ကိုသုံးတယ်။
 
 [အသေးစိတ်လေ့လာရန်](https://react.dev/reference/react/useRef)
+
+Content Projection & Dependency Injection
+
+ဒီအပိုင်းက အတော်လေ့လာရမယ့် အပိုင်း Angular ကော React ကောမှာ နက်နဲတယ်။ အခြေခံအားဖြင့် Content Projection ကို Angular မှာ <ng-content></ng-content> နဲ့ရေးပီး React မှာ props.children နဲ့ရေးတယ်။ Angular ရဲ့ Dependency Injection ဟာ React ရဲ့ Context API နဲ့ သဘောတရားခြင်း အတူတူပဲဖြစ်တယ်။
+
+**Angular**
+
+[Content Projection](https://angular.io/guide/content-projection)
+[Dependency Injection](https://angular.io/guide/dependency-injection)
+
+**React**
+
+[အသေးစိတ်လေ့လာရန်](https://react.dev/learn/passing-data-deeply-with-context)
